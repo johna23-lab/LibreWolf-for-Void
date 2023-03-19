@@ -1,7 +1,7 @@
 # Template file for 'librewolf'
 # Repackages the official rpm package.
 pkgname=librewolf
-version=110.0.1
+version=111.0.0
 revision=1
 archs="x86_64"
 create_wrksrc=yes
@@ -10,8 +10,8 @@ short_desc="Librewolf browser"
 maintainer="quechon"
 license="MPL-2.0, GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://librewolf.net/"
-distfiles="https://rpm.librewolf.net/pool/librewolf-${version}-1.fc37.x86_64.rpm"
-checksum=11af457d9c5a474e4b109d246f13d782515a416c2def38f01a8b7d6cb6c9eaea
+distfiles="https://rpm.librewolf.net/pool/librewolf-${version}-3.fc37.x86_64.rpm"
+checksum=b02e7d7f7e1b27cf4f6e34177b8ecc4f7e3ad817f064cb368a65c8937ff1ddfd
 
 ignore_elf_files="/usr/share/librewolf/librewolf
  /usr/share/librewolf/libfreeblpriv3.so
