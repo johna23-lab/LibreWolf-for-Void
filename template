@@ -1,7 +1,7 @@
 # Template file for 'librewolf'
 # Repackages the official rpm package.
 pkgname=librewolf
-version=119.0
+version=121.0
 revision=1
 archs="x86_64"
 create_wrksrc=yes
@@ -11,7 +11,7 @@ maintainer=""
 license="MPL-2.0, GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://librewolf.net/"
 distfiles="https://rpm.librewolf.net/pool/librewolf-${version}-7.fc37.x86_64.rpm"
-checksum=5382510d4773faf3f523d33853d1139bc3c10f2ac8bc642ffd058d803cfe2721
+checksum=36e6b0d00712b35a4859285e3c32fd2831b173d879e3fd2114cc64a6af89bd04
 
 ignore_elf_files="/usr/share/librewolf/librewolf
  /usr/share/librewolf/libgkcodecs.so
